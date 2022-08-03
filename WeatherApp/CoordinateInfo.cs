@@ -9,9 +9,9 @@ namespace WeatherApp
 {
     internal class CoordinateInfo
     {
-        [JsonPropertyName("name")] public string Name { get; set; }
+        [JsonPropertyName("name")] public string? Name { get; set; }
         [JsonPropertyName("lat")] public double Lat{ get; set; }
         [JsonPropertyName("lon")] public double Lon { get; set; }
-        [JsonPropertyName("country")] public string Country { get; set; }
+        [JsonPropertyName("country")] public string? Country { get; set; }
     }
 }
